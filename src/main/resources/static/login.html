@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <style>
+        .box1{
+            border: brown 1px solid;
+            width: 600px;
+            height: 300px;
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+            color: brown;
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <h1>登录页面</h1>
+    <form action="/login" method="post">
+        用户名：<input type="text" name="username"><br>
+        密 &nbsp;&nbsp;码：<input type="text" name="password"><br>
+        记住我：<input type="checkbox" name="remember-me" value="true"><br>
+        <button style="margin-left: 100px;margin-top: 20px" type="submit" value="登录">登录</button>
+    </form>
+</div>
+</body>
+</html>
